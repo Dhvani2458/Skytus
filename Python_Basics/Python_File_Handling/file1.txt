@@ -1,0 +1,3 @@
+This is the basic introduction of the python
+it include all the concepts along with practical knowledge
+code yourself and widen your knowledge

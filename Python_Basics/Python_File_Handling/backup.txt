@@ -1,0 +1,8 @@
+Python is a programming language.
+Python is also used for data science.
+Python is used for web development.
+File handling is an necessary Python concept.
+Python is easy to learn.
+Hello
+Python
+Programmers

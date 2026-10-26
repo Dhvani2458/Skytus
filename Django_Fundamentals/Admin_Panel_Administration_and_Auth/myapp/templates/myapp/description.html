@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load custom_filters %}
+
+{% block title %}Custom Template Filter{% endblock %}
+
+{% block content %}
+    <h2>Custom Template Filter Example</h2>
+
+    {% with description="Django is a powerful Python framework used to build secure and scalable web applications." %}
+        <p><strong>Original:</strong> {{ description }}</p>
+        <p><strong>Shortened:</strong> {{ description|truncate_words }}</p>
+        <p><strong>Three words:</strong> {{ description|truncate_words:3 }}</p>
+    {% endwith %}
+{% endblock %}

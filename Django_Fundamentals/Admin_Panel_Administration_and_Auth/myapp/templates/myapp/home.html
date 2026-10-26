@@ -1,0 +1,39 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Home | My Django Website{% endblock %}
+
+{% block content %}
+<section class="welcome-section">
+    <span class="welcome-badge">✨ Welcome</span>
+
+    <h2>Welcome to Django!</h2>
+
+    <p>
+        Explore the power of Django templates, dynamic content,
+        reusable layouts, and static files.
+    </p>
+
+    <div class="home-cards">
+        <div class="home-card">
+            <span class="card-icon">🎨</span>
+            <h3>Template Design</h3>
+            <p>Create reusable layouts using template inheritance.</p>
+        </div>
+
+        <div class="home-card">
+            <span class="card-icon">⚡</span>
+            <h3>Dynamic Content</h3>
+            <p>Display data using loops and conditional statements.</p>
+        </div>
+
+        <div class="home-card">
+            <span class="card-icon">🚀</span>
+            <h3>Django Features</h3>
+            <p>Build organized and maintainable web applications.</p>
+        </div>
+    </div>
+
+    <a href="/items/" class="home-button">Explore Items →</a>
+</section>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Item List{% endblock %}
+
+{% block content %}
+    <h2>Available Items</h2>
+
+    <ul>
+        {% for item in items %}
+            <li>
+                {{ item.name }}
+
+                {% if item.available %}
+                    <span class="available">Available</span>
+                {% else %}
+                    <span class="unavailable">Not Available</span>
+                {% endif %}
+            </li>
+        {% empty %}
+            <li>No items found.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

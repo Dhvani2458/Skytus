@@ -55,7 +55,7 @@ const projects = [
       "A security analysis application designed to identify potential quantum computing threats and explore post-quantum cryptography recommendations.",
     tech: "React · Python · Post-Quantum Cryptography",
     icon: "⚛️",
-    link: "quantum-security-scanner-seven.vercel.app",
+    link: "https://github.com/Dhvani2458/Quantum-Security-Scanner",
   },
 ];
 

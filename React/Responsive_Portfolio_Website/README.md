@@ -1,16 +1,101 @@
-# React + Vite
+# Responsive Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio website built using React.js and CSS to showcase my skills, projects, and contact information. The website is designed to provide a clean and user-friendly experience across desktop, tablet, and mobile devices.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Visit my portfolio:** https://responsiveportfoliowebsite.vercel.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design for desktop, tablet, and mobile screens
+- Clean and user-friendly interface
+- Reusable React components
+- Projects section to showcase development work
+- Skills section highlighting technical knowledge
+- About section for personal and professional introduction
+- Contact form with input validation
+- Interactive UI using React Hooks
+- Responsive layouts using CSS Flexbox, Grid, and media queries
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js
+- **Language:** JavaScript (ES6+)
+- **Styling:** CSS3
+- **Build Tool:** Vite
+- **Code Quality:** ESLint
+- **Deployment:** Vercel
+- **Version Control:** Git and GitHub
+
+## 📂 Project Structure
+
+```text
+Responsive_Portfolio_Website/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── assets/
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+*Note: The contents of the `src/` folder may vary depending on the components in the project.*
+
+## 🚀 Run Locally
+
+Follow these steps to run the project on your computer.
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+Replace `YOUR_GITHUB_REPOSITORY_URL` with your GitHub repository's URL.
+
+### 2. Navigate to the project folder
+
+```bash
+cd Responsive_Portfolio_Website
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in the terminal, usually `http://localhost:5173/`.
+
+## 📱 Responsive Design
+
+The website uses CSS Flexbox, Grid, and media queries to adapt its layout to different screen sizes, providing a consistent experience across devices.
+
+## 🚀 Deployment
+
+The project is deployed on Vercel.
+
+**Live Website:** https://responsiveportfoliowebsite.vercel.app/
+
+## 👩‍💻 Author
+
+**Dhvani Tandel**
+
+- GitHub: https://github.com/Dhvani2458
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.

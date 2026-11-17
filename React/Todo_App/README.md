@@ -57,7 +57,7 @@ Todo_App/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Todo_App.git
+git clone https://github.com/Dhvani2458/Skytus/tree/main/React/Todo_App
 ```
 
 ### 2. Navigate to the project folder
